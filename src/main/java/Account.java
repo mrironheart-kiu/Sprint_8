@@ -10,7 +10,7 @@ public class Account {
      Если строка удовлетворяет условиям, метод возвращает true, иначе — false.
     */
     public boolean checkNameToEmboss() {
-        if (name.isBlank() || name.isEmpty()) {
+        if (name == null || name.isBlank()) {
             System.out.println("ОШИБКА! Имя не может быть пустым");
             return false;
         } else if (name.length() < 3){

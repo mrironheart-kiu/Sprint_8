@@ -18,6 +18,8 @@ public class Praktikum {
         Account acct7 = new Account(" ПёртИванов");
         Account acct8 = new Account("ПёртИванов ");
         Account acct9 = new Account("ПёртИванов");
+        Account acct10 = new Account("");
+        Account acct11 = new Account(null);
 
         acct1.checkNameToEmboss();
         acct2.checkNameToEmboss();
@@ -28,6 +30,8 @@ public class Praktikum {
         acct7.checkNameToEmboss();
         acct8.checkNameToEmboss();
         acct9.checkNameToEmboss();
+        acct10.checkNameToEmboss();
+        acct11.checkNameToEmboss();
     }
 
 }
